@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		039FF2582341B6E800400D7A /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 039FF2572341B6E800400D7A /* CHANGELOG.md */; };
-		03FDCADA233F235500101681 /* BlackHole.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03FDCAD9233F235500101681 /* BlackHole.icns */; };
+		03FDCADA233F235500101681 /* Decibel Driver.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03FDCAD9233F235500101681 /* Decibel Driver.icns */; };
 		03FDCADC233FAE0500101681 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 03FDCADB233FAE0500101681 /* LICENSE */; };
 		2D616EF415B8C82500D598BD /* BlackHole.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D616EF215B8C82500D598BD /* BlackHole.c */; };
 		2D7477AD1578168D00412279 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7477AC1578168D00412279 /* CoreFoundation.framework */; };
@@ -16,12 +16,12 @@
 
 /* Begin PBXFileReference section */
 		039FF2572341B6E800400D7A /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		03FDCAD9233F235500101681 /* BlackHole.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BlackHole.icns; sourceTree = "<group>"; };
+		03FDCAD9233F235500101681 /* Decibel Driver.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Decibel Driver.icns"; sourceTree = "<group>"; };
 		03FDCADB233FAE0500101681 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		03FEA4BB233D27770005D277 /* BlackHole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackHole.h; sourceTree = "<group>"; };
-		2D616EF115B8C82500D598BD /* BlackHole-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BlackHole-Info.plist"; sourceTree = "<group>"; };
+		2D616EF115B8C82500D598BD /* Decibel Driver-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Decibel Driver-Info.plist"; sourceTree = "<group>"; };
 		2D616EF215B8C82500D598BD /* BlackHole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BlackHole.c; sourceTree = "<group>"; };
-		2D7477A91578168D00412279 /* BlackHole.driver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackHole.driver; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7477A91578168D00412279 /* Decibel Monitoring.driver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decibel Monitoring.driver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7477AC1578168D00412279 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2D7477EC157823CF00412279 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		2DA8FA1515FEAAB000F04B50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -41,15 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D616EF015B8C82500D598BD /* BlackHole */ = {
+		2D616EF015B8C82500D598BD /* Decibel Driver */ = {
 			isa = PBXGroup;
 			children = (
-				03FDCAD9233F235500101681 /* BlackHole.icns */,
-				2D616EF115B8C82500D598BD /* BlackHole-Info.plist */,
+				03FDCAD9233F235500101681 /* Decibel Driver.icns */,
+				2D616EF115B8C82500D598BD /* Decibel Driver-Info.plist */,
 				03FEA4BB233D27770005D277 /* BlackHole.h */,
 				2D616EF215B8C82500D598BD /* BlackHole.c */,
 			);
-			path = BlackHole;
+			path = "Decibel Driver";
 			sourceTree = "<group>";
 		};
 		2D74779B1578162B00412279 = {
@@ -58,7 +58,7 @@
 				2DA8FA1515FEAAB000F04B50 /* README.md */,
 				03FDCADB233FAE0500101681 /* LICENSE */,
 				039FF2572341B6E800400D7A /* CHANGELOG.md */,
-				2D616EF015B8C82500D598BD /* BlackHole */,
+				2D616EF015B8C82500D598BD /* Decibel Driver */,
 				2D7477AB1578168D00412279 /* Frameworks */,
 				2D7477AA1578168D00412279 /* Products */,
 			);
@@ -67,7 +67,7 @@
 		2D7477AA1578168D00412279 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D7477A91578168D00412279 /* BlackHole.driver */,
+				2D7477A91578168D00412279 /* Decibel Monitoring.driver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D7477A81578168D00412279 /* BlackHole */ = {
+		2D7477A81578168D00412279 /* Decibel Monitoring */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D7477B51578168D00412279 /* Build configuration list for PBXNativeTarget "BlackHole" */;
+			buildConfigurationList = 2D7477B51578168D00412279 /* Build configuration list for PBXNativeTarget "Decibel Monitoring" */;
 			buildPhases = (
 				2D7477A51578168D00412279 /* Sources */,
 				2D7477A61578168D00412279 /* Frameworks */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = BlackHole;
+			name = "Decibel Monitoring";
 			productName = AudioNULLDriver;
-			productReference = 2D7477A91578168D00412279 /* BlackHole.driver */;
+			productReference = 2D7477A91578168D00412279 /* Decibel Monitoring.driver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -112,11 +112,12 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					2D7477A81578168D00412279 = {
-						DevelopmentTeam = Q5C99V536K;
+						DevelopmentTeam = 2G57229SW7;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 2D7477A01578162B00412279 /* Build configuration list for PBXProject "BlackHole" */;
+			buildConfigurationList = 2D7477A01578162B00412279 /* Build configuration list for PBXProject "Decibel Driver" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D7477A81578168D00412279 /* BlackHole */,
+				2D7477A81578168D00412279 /* Decibel Monitoring */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03FDCADC233FAE0500101681 /* LICENSE in Resources */,
-				03FDCADA233F235500101681 /* BlackHole.icns in Resources */,
+				03FDCADA233F235500101681 /* Decibel Driver.icns in Resources */,
 				039FF2582341B6E800400D7A /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +209,7 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx;
+				SYMROOT = Builds;
 			};
 			name = Release;
 		};
@@ -262,6 +264,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = Builds;
 			};
 			name = Debug;
 		};
@@ -316,6 +319,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = Builds;
 			};
 			name = "Debug-Opt";
 		};
@@ -324,17 +328,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2G57229SW7;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=0",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/BlackHole/BlackHole-Info.plist";
+				INFOPLIST_FILE = "Decibel Driver/Decibel Driver-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/HAL";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 0.2.9;
-				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
+				PRODUCT_BUNDLE_IDENTIFIER = audio.ProcessAudio.DecibelMonitoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = driver;
 			};
 			name = Release;
@@ -344,17 +351,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2G57229SW7;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/BlackHole/BlackHole-Info.plist";
+				INFOPLIST_FILE = "Decibel Driver/Decibel Driver-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/HAL";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 0.2.9;
-				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
+				PRODUCT_BUNDLE_IDENTIFIER = audio.ProcessAudio.DecibelMonitoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = driver;
 			};
 			name = Debug;
@@ -364,17 +374,20 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = Q5C99V536K;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2G57229SW7;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/BlackHole/BlackHole-Info.plist";
+				INFOPLIST_FILE = "Decibel Driver/Decibel Driver-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Audio/Plug-Ins/HAL";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 0.2.9;
-				PRODUCT_BUNDLE_IDENTIFIER = audio.existential.BlackHole;
+				PRODUCT_BUNDLE_IDENTIFIER = audio.ProcessAudio.DecibelMonitoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = driver;
 			};
 			name = "Debug-Opt";
@@ -382,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D7477A01578162B00412279 /* Build configuration list for PBXProject "BlackHole" */ = {
+		2D7477A01578162B00412279 /* Build configuration list for PBXProject "Decibel Driver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D7477A21578162B00412279 /* Release */,
@@ -392,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D7477B51578168D00412279 /* Build configuration list for PBXNativeTarget "BlackHole" */ = {
+		2D7477B51578168D00412279 /* Build configuration list for PBXNativeTarget "Decibel Monitoring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D7477B61578168D00412279 /* Release */,

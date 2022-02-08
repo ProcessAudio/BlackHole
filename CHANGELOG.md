@@ -1,4 +1,4 @@
-#  BlackHole Changelog
+#  Decibel Driver Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -10,6 +10,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Add support for additional virtual formats. 24bit, 16bit.
 - Sync BlackHole audio clock with any audio device.
+
+## [0.2.9P]
+### Changed
+- Added Apple Developer Team UID to sign with
+- Changed Driver name
+- Removed BlackHole icons
+- Constrained supported framerates
 
 ## [0.2.9] - 2021-1-27
 ### Changed

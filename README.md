@@ -1,4 +1,4 @@
-# BlackHole: Virtual Audio Driver
+# Decibel Driver : Fork of [BlackHole: Virtual Audio Driver]
 ![Platform:macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![GitHub](https://img.shields.io/github/v/release/ExistentialAudio/BlackHole)
 [![GitHub](https://img.shields.io/github/license/ExistentialAudio/BlackHole)](LICENSE)
