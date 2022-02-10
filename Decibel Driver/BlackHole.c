@@ -3918,7 +3918,8 @@ static OSStatus	BlackHole_DoIOOperation(AudioServerPlugInDriverRef inDriver, Aud
                 
                 //PATCH: Enforce process blocks even if muted
 				// write to internal ring buffer
-				ringBuffer[((mSampleTime+frame)%kDevice_RingBufferSize)*NUMBER_OF_CHANNELS+channel] += buffer[frame*NUMBER_OF_CHANNELS+channel] * gVolume_Output_Master_Value;
+				//PATCH: Removed volume factor to enforfe unity gain
+				ringBuffer[((mSampleTime+frame)%kDevice_RingBufferSize)*NUMBER_OF_CHANNELS+channel] += buffer[frame*NUMBER_OF_CHANNELS+channel];
 				//PATCH END
                 
                 // clear ring buffer trailing by 16384 samples.
